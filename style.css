@@ -1,3 +1,7 @@
+body {
+    font-family: arial, san-serif;
+}
+
 main {
     text-align: center;
 }
@@ -7,4 +11,29 @@ input {
     width: 33%;
     margin: 20px 20px 20px 20px;
     border-radius: 1em;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    display: inline;
+    float: left;
+}
+
+li a {
+    font-size: 13px;
+    display: block;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: black;
+    opacity: 75%;
+}
+
+.li-left {
+    float: right;
 }
