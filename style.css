@@ -40,6 +40,18 @@ li a {
     opacity: 75%;
 }
 
-.li-left {
+.li-right {
     float: right;
+}
+
+.ul-top {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.ul-bottom {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
