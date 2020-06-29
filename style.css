@@ -4,6 +4,10 @@ body {
 
 main {
     text-align: center;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -100%);
 }
 
 footer {
@@ -13,10 +17,22 @@ footer {
 
 input {
     font-size: 25px;
-    width: 33%;
+    width: auto;
     margin: 20px 20px 20px 20px;
     border-radius: 1em;
     border-style: solid;
+}
+
+button {
+    box-shadow:inset 0px 1px 0px 0px #ffffff;
+    background-color:rgb(248, 248, 248);
+    border-radius:2px;
+    border: none;
+    display:inline-block;
+    cursor:pointer;
+    color:#666666;
+    font-weight:bold;
+    padding:0.5em 24px;
 }
 
 ul {
@@ -54,4 +70,5 @@ li a {
     position: fixed;
     bottom: 0;
     width: 100%;
+    color: rgb(34, 34, 34);
 }
